@@ -1,5 +1,5 @@
 // to run this file, type in this comman in 
-// command prompt => `nodemon {filename}.ts`
+// command prompt => `ts-node {filename}.ts`
 
 type Address = {
     city: string,
