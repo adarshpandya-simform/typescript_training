@@ -1,6 +1,6 @@
 "use strict";
 // to run this file, type in this comman in 
-// command prompt => `nodemon {filename}.ts`
+// command prompt => `ts-node {filename}.ts`
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.helloTS = void 0;
 const helloTS = () => {

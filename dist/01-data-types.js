@@ -1,6 +1,6 @@
 "use strict";
 // to run this file, type in this comman in 
-// command prompt => `nodemon {filename}.ts`
+// command prompt => `ts-node {filename}.ts`
 // assigning number data type to num var
 let num = 1;
 console.log(num);

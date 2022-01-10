@@ -1,6 +1,6 @@
 "use strict";
 // to run this file, type in this comman in 
-// command prompt => `nodemon {filename}.ts`
+// command prompt => `ts-node {filename}.ts`
 //typescript support types in functional params to decide
 // which types are coming in as param
 // in typescript we can also decide which type of value 
