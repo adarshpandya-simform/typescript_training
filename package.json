@@ -1,0 +1,28 @@
+{
+  "name": "typescript_training",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build":"rimraf dist && tsc",
+    "dev":"nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshpandya-simform/typescript_training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshpandya-simform/typescript_training/issues"
+  },
+  "homepage": "https://github.com/adarshpandya-simform/typescript_training#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
