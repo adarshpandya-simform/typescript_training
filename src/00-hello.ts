@@ -1,3 +1,6 @@
+// to run this file, type in this comman in 
+// command prompt => `nodemon {filename}.ts`
+
 export const helloTS = () => {
     let num1: number = 5;
     let num2: number = 10;
