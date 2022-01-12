@@ -1,7 +1,7 @@
-# Typescript course (Jan-10,11)
+# Typescript course (Jan-10,11,12)
 
 <hr>
-Started on : 10-01-2022,11-01-2022<br>
+Started on : 10-01-2022,11,12<br>
 Mentor : Mitul <br>
 Training Coordinator: Bhumika<br>
 Team Manager : Mehul Pandya
@@ -30,3 +30,17 @@ updates for 11-jan:
     - tried declaration merge with function/namespace
     - watched tutorials of typescript
     - sent PR
+
+updates for 12-jan: <br>
+
+    - watched TS course
+    - learnt about generics
+    - implemented reusable function with generics
+    - OOP in TS
+    - implemented classes
+    - used constructor
+    - learnt getter and setters
+    - learnt and implemented access specifiers
+    - learnt and implemented static values/methods
+    - implemented inheritance
+    - sent PR for review
