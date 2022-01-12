@@ -1,9 +1,9 @@
 "use strict";
-// to run this file, type in this comman in 
+// to run this file, type in this comman in
 // command prompt => `ts-node {filename}.ts`
 //typescript support types in functional params to decide
 // which types are coming in as param
-// in typescript we can also decide which type of value 
+// in typescript we can also decide which type of value
 // a function can return
 // example - param data type
 function sum(num1, num2) {
