@@ -31,3 +31,11 @@ const returnLastElemString = (arr: Array<string>) => {
 console.log(returnLastElemString(namesOfFriend))
 
 
+// creating a reusable function using generic
+
+const returnLastElem = <T>(arr: Array<T>) => {
+    return arr[arr.length-1]
+}
+
+console.log(returnLastElem(numOfFriend))
+console.log(returnLastElem(namesOfFriend))
