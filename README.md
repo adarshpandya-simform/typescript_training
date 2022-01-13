@@ -1,7 +1,7 @@
-# Typescript course (Jan-10,11,12)
+# Typescript course (Jan-10,11,12,13)
 
 <hr>
-Started on : 10-01-2022,11,12<br>
+Started on : 10-01-2022,11,12,13<br>
 Mentor : Mitul <br>
 Training Coordinator: Bhumika<br>
 Team Manager : Mehul Pandya
@@ -43,4 +43,16 @@ updates for 12-jan: <br>
     - learnt and implemented access specifiers
     - learnt and implemented static values/methods
     - implemented inheritance
+    - sent PR for review
+
+updates for 13-jan: <br>
+
+    - watched TS course
+    - completed TS course
+    - implemented abstract classes
+    - implemented singleton classes
+    - learnt about loaders
+    - learnt about namespaces
+    - implemented namespace
+    - learnt about ES6 import/exports
     - sent PR for review
