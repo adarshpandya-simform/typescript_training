@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "rimraf dist && tsc",
+    "copy-files":"copyfiles -u 2 src/**/*.html src/**/*.css src/**/.editorconfig src/**/*.png dist/practical-01",
+    "build": "rimraf dist && tsc && npm run copy-files",
     "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/adarshpandya-simform/typescript_training#readme",
   "devDependencies": {
     "@types/node": "^17.0.8",
+    "copyfiles": "^2.4.1",
     "nodemon": "^2.0.15",
     "ts-lint": "^4.5.1",
     "ts-node": "^10.4.0",
