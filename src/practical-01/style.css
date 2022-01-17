@@ -1,3 +1,134 @@
 *{
-    box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.calc-container{
+	background: #F3F3F4;
+	box-shadow: 0px 2px 6px rgba(255, 255, 255, .5);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.result-area{
+	flex: 3;
+	/* background: burlywood; */
+}
+
+
+
+.result-area input{
+	width: 100%;
+	font-size: 25px;
+	outline: none;
+	border: none;
+	/* direction: rtl; */
+	text-align: right;
+	background:transparent;
+}
+
+.calc-inputs{
+	flex: 9;
+	/* background: purple; */
+	display: flex;
+	flex-direction: column;
+}
+
+.scientific-btns{
+	width: 100% !important;
+}
+
+.scientific-btns button{
+	background: transparent;
+	letter-spacing: .3px;
+	border: none;
+	font-size: 16px;
+	padding: 8px 25px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+
+.scientific-btns button:hover{
+	background: #d3d3d3;
+	border-radius: 5px;
+}
+
+.scientific-btns button:active{
+	background: #d3d3d3;
+}
+
+.mathematical-selectors{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5px 0px;
+}
+
+.selector{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+}
+
+.selector select{
+	border: none;
+	background: transparent;
+	
+}
+
+.selector select::-ms-expand{
+	display: none !important;
+}
+
+.normal-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.normal-row button{
+	background: transparent;
+	letter-spacing: .3px;
+	border: none;
+	font-size: 16px;
+	padding: 8px 20px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	margin:7px 0px;
+	background: #F5F5F6;
+}
+
+.normal-row button:hover{
+	background: #d3d3d3;
+	border-radius: 5px;
+}
+
+.normal-row button:active{
+	background: #d3d3d3;
+}
+
+.equal{
+	background: #90BFE5 !important;
+}
+
+@media (max-width:700px) {
+.calc-container{
+	height: 100%;
+	width: 100%;
+}
 }
