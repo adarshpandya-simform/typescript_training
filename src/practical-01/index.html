@@ -27,24 +27,34 @@
 	<body>
 		<!-- a flexbox container -->
 		<div class="calc-container">
+			<!-- result-area to display results of calculation -->
 			<div class="result-area">
+				<!-- input tag for inputting value and showing output -->
 				<input type="text" placeholder="0" autofocus name="input" id="input" />
 			</div>
+			<!-- markup for calculator input buttons -->
 			<div class="calc-inputs">
+				<!-- scientific buttons -->
 				<div class="calc-scientific">
+					<!-- container for scientific buttons -->
 					<div class="scientific-btns">
 						<button disabled>DEG</button>
 						<button disabled>F-E</button>
 					</div>
+					<!-- container for scientific buttons -->
 					<div class="scientific-btns">
+						<!-- memory operations -->
 						<button id="clear-memory">MC</button>
 						<button id="show-memory">MR</button>
 						<button id="add-memory">M+</button>
 						<button id="remove-last">M-</button>
 						<button id="memory-store">MS</button>
 					</div>
+					<!-- container for scientific selectors -->
 					<div class="scientific-btns">
+						<!-- mathematical selectors -->
 						<div class="mathematical-selectors">
+							<!-- markup for trigonometry selector -->
 							<div class="selector">
 								<div>
 									<img
@@ -55,6 +65,7 @@
 									/>
 									Trigonometry
 								</div>
+								<!-- select tag for giving options to user -->
 								<select name="trig" id="trig">
 									<option value=""></option>
 									<option value="sin">sin</option>
@@ -66,6 +77,7 @@
 									<option value="hyp">hyp</option>
 								</select>
 							</div>
+							<!-- markup for functions selector -->
 							<div class="selector">
 								<div>
 									<img
@@ -76,6 +88,7 @@
 									/>
 									Function
 								</div>
+								<!-- select tag for giving options to user -->
 								<select name="func" id="func">
 									<option value=""></option>
 									<option value="modX"><i>mod x</i></option>
@@ -87,7 +100,9 @@
 						</div>
 					</div>
 				</div>
+				<!-- container for normal calc buttons (non-scientific) -->
 				<div class="calc-normal">
+					<!-- container rows for numbers,operators and mathematical functions -->
 					<div class="normal-row">
 						<button>2<sup>nd</sup></button>
 						<button id="pie">&Pi;</button>
@@ -146,7 +161,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- linking JS -->
+		<!-- linking JS (compiled from main.ts in src/practical-01) -->
 		<script src="./main.js"></script>
 	</body>
 </html>
