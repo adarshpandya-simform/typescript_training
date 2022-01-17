@@ -1,3 +1,6 @@
-import { helloTS } from "./00-hello"
+// to run this file, type in this comman in
+// command prompt => `ts-node {filename}.ts`
 
-helloTS()
+import { helloTS } from "./00-hello";
+
+helloTS();
