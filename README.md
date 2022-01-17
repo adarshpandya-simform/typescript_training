@@ -1,7 +1,7 @@
-# Typescript course (Jan-10,11,12,13)
+# Typescript course (Jan-10,11,12,13,17)
 
 <hr>
-Started on : 10-01-2022,11,12,13<br>
+Started on : 10-01-2022,11,12,13,17<br>
 Mentor : Mitul <br>
 Training Coordinator: Bhumika<br>
 Team Manager : Mehul Pandya
@@ -55,4 +55,14 @@ updates for 13-jan: <br>
     - learnt about namespaces
     - implemented namespace
     - learnt about ES6 import/exports
+    - sent PR for review
+
+updates for 17-jan: <br>
+
+    - revised TS course
+    - read blogs around type casting
+    - started with practical for TS
+    - worked with tsconfig.json
+    - learnt about copyfiles package
+    - completed practical
     - sent PR for review
